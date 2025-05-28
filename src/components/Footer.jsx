@@ -1,5 +1,13 @@
 // Footer.jsx
 
+import payment1 from "../assets/payment1.jpg";
+import payment2 from "../assets/payment2.jpg";
+import payment3 from "../assets/payment3.jpg";
+import payment4 from "../assets/payment4.png";
+import payment5 from "../assets/payment5.jpg";
+import payment6 from "../assets/payment6.jpg";
+
+
 import React from "react";
 import {
   Facebook,
@@ -84,14 +92,14 @@ const Footer = () => {
         {/* Payment methods */}
         <div className="mb-4 md:mb-0">
           <h4 className="font-semibold mb-2">PAYMENT</h4>
-          <div className="flex gap-2">
-            <img src="/src\assets\payment1.jpg" alt="Payment 1" className="h-6" />
-            <img src="/src\assets\payment2.jpg" alt="Payment 2" className="h-6" />
-            <img src="/src\assets\payment3.jpg" alt="Payment 3" className="h-6" />
-            <img src="/src\assets\payment4.png" alt="Payment 4" className="h-6" />
-            <img src="/src\assets\payment5.jpg" alt="Payment 5" className="h-6" />
-            <img src="/src\assets\payment6.jpg" alt="Payment 6" className="h-6" />
-          </div>
+         <div className="flex gap-2">
+  <img src={payment1} alt="Payment 1" className="h-6" />
+  <img src={payment2} alt="Payment 2" className="h-6" />
+  <img src={payment3} alt="Payment 3" className="h-6" />
+  <img src={payment4} alt="Payment 4" className="h-6" />
+  <img src={payment5} alt="Payment 5" className="h-6" />
+  <img src={payment6} alt="Payment 6" className="h-6" />
+</div>
         </div>
 
         {/* Social icons */}
