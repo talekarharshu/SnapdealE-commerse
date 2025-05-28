@@ -26,7 +26,7 @@ export default function Navbar() {
       <div className="bg-red-500 flex flex-col sm:flex-row items-center justify-between px-4 sm:px-6 py-3 gap-3 sm:gap-0">
         {/* Logo */}
         <div className="flex items-center gap-2">
-         <img src={snapdealLogo} alt="Snapdeal" className="h-8" />
+         <img src={snapdealLogo} alt="Snapdeal" className="h-10" />
           <h1 className="text-white text-2xl sm:text-4xl font-bold">Snapdeal</h1>
         </div>
 
