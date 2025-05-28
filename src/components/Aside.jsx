@@ -295,7 +295,7 @@ function HomePage() {
           <img
             src={bannerSlides[currentBanner].image}
             alt={bannerSlides[currentBanner].title}
-            className="w-fit object-cover h-64"
+            className="w-full object-cover h-64"
           />
           <button
             onClick={prevBanner}
