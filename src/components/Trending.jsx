@@ -22,7 +22,7 @@ function Trending (){
                 <p>Got a Question? No look further.
                     Browse our FAQs or submit your query here</p>
                 </div>
-            <div  className="flex h-50 w-80 flex-col gap-6 justify-center border border-gray-200 items-center  p-4 m-4 rounded-lg shadow-lg">
+            <div  className="flex h-70 w-fit flex-col gap-4 justify-center border border-gray-200 items-center  p-4 m-4 rounded-lg shadow-lg">
                 <img src="https://i.pinimg.com/736x/79/7f/1a/797f1aa9f76bac3516da1e6b3b9327e8.jpg" alt="" className="h-20 w-20"/>
                 <h3>SHOP ON THE GO</h3>
                 <p>Download the app and get exciting
