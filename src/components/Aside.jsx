@@ -289,13 +289,13 @@ function HomePage() {
     </div>
 
       {/* Right side - Banners + Trending Products */}
-      <div className="flex-1 flex flex-col gap-8">
+      <div className="flex-1 flex flex-col  w-240 gap-8">
         {/* Main Banner Slider */}
         <div className="relative overflow-hidden rounded-lg shadow-md">
           <img
             src={bannerSlides[currentBanner].image}
             alt={bannerSlides[currentBanner].title}
-            className="w-full object-cover h-64"
+            className="w-fit object-cover h-64"
           />
           <button
             onClick={prevBanner}
